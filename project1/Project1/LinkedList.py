@@ -1,7 +1,6 @@
 ########################################
 # PROJECT 1 - Linked List
 # Author:  SangSeung (Jay) lee
-# PID: A48858495
 ########################################
 
 class Node:
