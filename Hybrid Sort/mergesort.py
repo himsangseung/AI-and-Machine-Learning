@@ -1,7 +1,6 @@
 """
 PROJECT 3 - Merge Sort
 Name: SangSeung Lee
-PID: A48858495
 """
 
 from Project3.LinkedList import LinkedList
@@ -164,10 +163,9 @@ def merge(list1, list2):
     list2.append(linked)
     print(list2)
     output = merge_lists(list2,300)
-    print(output)
-    
-    
-    a = LinkedList([1,2])
+    print(output)    
+
+    a = LinkedList([1,-2000])
     list =[]
     list.append(a)
     #print(list)

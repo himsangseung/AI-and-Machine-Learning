@@ -177,3 +177,21 @@ def palindrome(node, length, compare):
     if compare[0].next_node is None:
         return True
     compare[0] = compare[0].next_node
+
+
+
+llist = insert('a')
+insert('b', llist)
+insert('c', llist)
+insert('b', llist)
+insert('a', llist)
+
+#assert palindrome(llist, length(llist), [None]) == True
+
+llist2 = insert('f')
+insert('a', llist2)
+insert('l', llist2)
+insert('s', llist2)
+insert('e', llist2)
+
+palindrome(llist, length(llist), [None])

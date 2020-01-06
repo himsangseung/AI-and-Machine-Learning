@@ -1,6 +1,7 @@
 ########################################
 # PROJECT 1 - Linked List
 # Author:  SangSeung (Jay) lee
+# PID: A48858495
 ########################################
 
 class Node:
@@ -265,3 +266,36 @@ def partition(linked_list, x):
 
     new_list = new_list_less
     return new_list
+
+
+llist = LinkedList()
+llist.push_back(5)
+llist.push_back(4)
+llist.push_back(2)
+llist.push_back(1)
+llist.push_back(7)
+llist.push_back(6)
+llist.push_back(5)
+
+llist = partition(llist, 3)
+#assert str(llist) == "[2, 1, 5, 4]"
+print(llist)
+
+llist2 = LinkedList()
+llist2.push_back(5)
+llist2.push_back(4)
+llist2.push_back(2)
+llist2.push_back(1)
+
+llist2 = partition(llist2, 7)
+#assert str(llist2) == "[5, 4, 2, 1]"
+print(llist2)
+
+llist3 = LinkedList()
+llist3.push_back(5)
+llist3.push_back(4)
+llist3.push_back(2)
+llist3.push_back(1)
+
+llist3 = partition(llist3, 2)
+print(llist3)
