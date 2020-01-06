@@ -1,7 +1,6 @@
 """
 PROJECT 2 - Recursion
 Name:Sang-Seung Jay Lee
-PID:A48858495
 """
 
 class LinkedNode:
